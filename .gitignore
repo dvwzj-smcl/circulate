@@ -35,3 +35,26 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+#dist folder
+dist
+
+#Webstorm metadata
+.idea
+
+#VSCode metadata
+.vscode
+
+# Mac files
+.DS_Store
+
+# laravel
+vendor
+public/storage
+Homestead.yaml
+Homestead.json
+.env
+
+# laravel ide-helper
+.phpstorm.meta.php
+_ide_helper.php

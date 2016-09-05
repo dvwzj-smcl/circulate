@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "prod": "gulp --production",
-    "dev": "gulp watch"
+    "dev": "gulp watch",
+    "start": "webpack-dev-server --port 3000 --content-base ./public/app/ --hot --inline --open",
+    "build": "webpack -p"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -12,14 +14,18 @@
     "babel-runtime": "^6.11.6",
     "bootstrap-sass": "^3.3.7",
     "css-loader": "^0.24.0",
+    "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-9",
     "laravel-elixir-vue": "^0.1.4",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.14.0",
+    "material-ui-vue": "^0.1.4",
+    "materialize-css": "^0.97.7",
+    "style-loader": "^0.13.1",
     "vue": "^1.0.26",
-    "vue-hot-reload-api": "^2.0.6",
+    "vue-hot-reload-api": "^1.0.2",
     "vue-html-loader": "^1.2.3",
     "vue-loader": "^8.5.2",
     "vue-resource": "^0.9.3",

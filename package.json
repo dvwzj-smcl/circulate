@@ -1,4 +1,10 @@
 {
+  "name": "semi-circulate",
+  "version": "0.1.0",
+  "description": "Circulate System",
+  "engines": {
+    "npm": ">=3"
+  },
   "private": true,
   "scripts": {
     "prod": "gulp --production",

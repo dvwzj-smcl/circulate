@@ -55,6 +55,9 @@ Homestead.yaml
 Homestead.json
 .env
 
+#bower
+public/bower_components
+
 # laravel ide-helper
 .phpstorm.meta.php
 _ide_helper.php

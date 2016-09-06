@@ -1,0 +1,22 @@
+{
+  "name": "semi-circulate",
+  "description": "Circulate System",
+  "main": "",
+  "authors": [
+    "dvwzj-smcl <dvwzj.smcl@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dvwzj-smcl/circulate",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "materialize": "^0.97.7"
+  }
+}
